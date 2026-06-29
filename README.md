@@ -1,10 +1,10 @@
-# VibeLoc
+# Locanto Services
 
 ## Overview
-VibeLoc is a premium iOS application designed as a next-generation classified services platform. It reimagines the traditional service discovery experience through an "Antigravity" design concept, leveraging advanced spatial interfaces, fluid physics, and immersive visual computing to provide a seamless user journey.
+Locanto Services is a premium iOS application designed as a next-generation classified services platform. It reimagines the traditional service discovery experience through an "Antigravity" design concept, leveraging advanced spatial interfaces, fluid physics, and immersive visual computing to provide a seamless user journey.
 
 ## Project Purpose
-The primary objective of VibeLoc is to bridge the gap between utility and aesthetics in the classifieds market. By prioritizing high-performance rendering, intuitive navigation, and a heavily stylized cosmic interface, the application aims to elevate the standard of digital service marketplaces, ensuring high user engagement and retention.
+The primary objective of Locanto Services is to bridge the gap between utility and aesthetics in the classifieds market. By prioritizing high-performance rendering, intuitive navigation, and a heavily stylized cosmic interface, the application aims to elevate the standard of digital service marketplaces, ensuring high user engagement and retention.
 
 ## Technical Stack
 - **Framework:** Native SwiftUI (Targeting iOS 17.0+).
@@ -15,7 +15,7 @@ The primary objective of VibeLoc is to bridge the gap between utility and aesthe
 - **Persistence:** SwiftData architecture engineered for robust offline-first capabilities.
 
 ## Architecture
-VibeLoc follows a strict, modular approach based on Clean Architecture principles combined with the MVVM (Model-View-ViewModel) design pattern:
+Locanto Services follows a strict, modular approach based on Clean Architecture principles combined with the MVVM (Model-View-ViewModel) design pattern:
 - **Domain Layer:** Defines core entities (e.g., `ServiceItem`, `CategoryWrapper`) and business rules.
 - **Data Layer:** A Repository pattern abstracts the data source, currently utilizing a procedural `MockData` engine capable of generating extensive relational datasets for UI testing, built to be effortlessly swapped with a production REST/GraphQL API.
 - **Presentation Layer:** Component-driven UI. Complex screens are composed of isolated, highly reusable elements such as `LevitatingButton`, `CosmicCard`, and `FloatingTabBar`.

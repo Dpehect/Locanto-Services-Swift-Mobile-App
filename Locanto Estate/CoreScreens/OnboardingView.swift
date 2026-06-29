@@ -21,7 +21,7 @@ public struct OnboardingView: View {
                         .float(offset: 12, duration: 3.5)
                         .gyroTilt(intensity: 15.0)
                     
-                    Text("VibeLoc")
+                    Text("Locanto Services")
                         .font(Font.antigravityDisplay())
                         .foregroundColor(Theme.Colors.primaryText)
                         .multilineTextAlignment(.center)
